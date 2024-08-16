@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    background-image: url(img/atas.png);
+    background-repeat: no-repeat;
+    background-position: center top -100px; 
+    background-size: 100%; 
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 150vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo h1 {
+    font-size: 36px;
+    color: #1b5177;
+    margin: 0;
+}
+
+.logo p {
+    font-size: 18px;
+    color: #4a8fb0;
+    margin: 0;
+    margin-top: -3px;
+}
+
+.try-now {
+    background-color: #669CC2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.try-now span {
+    margin-left: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 36px;
+    color: #8a2e8b;
+}
+
+main h1 {
+    font-size: 64px;
+    color: #1b5177;
+    margin-top: -30px;
+}
+
+.mockup img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 50px 0;
+    margin-top: -10px;
+}
+
+.description h3 {
+    font-size: 24px;
+    color: #8a2e8b;
+}
+
+.description p {
+    font-size: 36px;
+    color: #1b5177;
+    margin-top: -20px;
+}
+
+.variant-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding-bottom: 200px;
+}
+
+.variant {
+    padding: 20px;
+    text-align: left;
+}
+
+.variant h2 {
+    font-size: 18px;
+    color: #653d8d;
+    margin-bottom: 15px;
+}
+
+.variant img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-next {
+    border: none; 
+    color: rgb(50, 6, 209); 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin-left: 130px;
+    cursor: pointer; 
+    background-color: #ffffff;
+}
+
+footer {
+    color: rgb(239, 12, 12); 
+    text-align: center; 
+    padding: 100px 0 50px; 
+    width: 100%; 
+    background-image: url(img/bawah.png); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: auto; 
+}
+
+footer p {
+    margin-bottom:-30px;
+    font-size: 16px; 
+}
+
+.image-enlarger {
+    display: none; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.8); 
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1000;
+}
+
+.image-enlarger img {
+    max-width: 90%; 
+    max-height: 80%;
+    margin: auto;
+}
+
